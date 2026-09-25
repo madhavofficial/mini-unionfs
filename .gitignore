@@ -1,0 +1,18 @@
+# Build artifacts and binaries
+mini_unionfs
+obj/
+*.o
+*.a
+*.so
+*.dylib
+
+# Test output directories & logs
+unionfs_test_env/
+*.log
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/*.db
+.vscode/*.db-shm
+.vscode/*.db-wal
